@@ -1,0 +1,220 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Antonio', sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.container {
+  width: 1440px;
+  margin: 0 auto;   /* Позиционирование по центру */ 
+  /* border: 10px solid yellow; */
+  height: 900px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding-top: 58px;
+
+}
+
+.logopng  {
+  width: 50px;
+  height: 50px;
+  margin-right: 69px;
+}
+
+.header {
+  background: url('../img/header-bg.jpg') no-repeat center top;
+}
+
+.header a {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex; 
+}
+
+.menu li a {
+  text-transform: uppercase;
+}
+
+.menu li {
+  margin-right: 40px;
+  letter-spacing: 0.1em;
+}
+
+.tel  {
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.present {
+  margin-top: 216px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-size: 30px;
+  line-height: 45px;
+  margin-left: 6px;
+}
+
+.burning {
+  font-size: 100px;
+  line-height: 150px;
+  margin-top: -9px;
+  margin-bottom: 37px;
+}
+
+.booking {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em; 
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+}
+
+.container2 {
+  width: 1440px;
+  margin: 0 auto;   /* Позиционирование по центру */ 
+  /* border: 10px solid yellow; */
+}
+
+.maincontainer {
+  display: flex;
+  margin-bottom: 67px;
+}
+
+.aboutthe {
+  font-size: 50px;  
+  line-height: 75px;
+  margin-top: 113px;
+  margin-bottom: 58px;
+  text-transform: uppercase;
+}
+
+.left {
+  display: block;
+  width: 564px;
+  height: 146px;
+  margin-right: 36px;
+  margin-bottom: 113px;
+}
+
+.callme1 {
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+.maintext1 {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.right {
+  display: block;
+  width: 564px;
+  height: 192px;
+  margin-bottom: 67px;
+}
+
+.callme2 {
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+.maintext2 {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.container3 {
+  width: 1440px;
+  margin: 0 auto;   /* Позиционирование по центру */ 
+  /* border: 10px solid yellow; */
+}
+
+.images {
+  display: flex;
+}
+
+.img1 {
+  width: 270px;
+  height: 344px;
+  margin-right: 29px;
+}
+
+.img2 {
+  width: 270px;
+  height: 344px;
+  margin-right: 30px;
+}
+
+.img3 {
+  width: 570px;
+  height: 344px;
+}
+
+.foot {
+  display: flex;
+  margin-top: 114px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.footer1 {
+  margin-right: 55px;
+  margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
